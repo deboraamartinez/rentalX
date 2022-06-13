@@ -21,7 +21,7 @@ categoriesRoutes.post('/categories', (req, res) => {
 
   return res
     .status(201)
-    //send()
+    //.send()
     .json({ categories })
 
 })
